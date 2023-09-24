@@ -1,0 +1,70 @@
+.header {
+    width: 40%;
+    padding: 45px 30%;
+    display: flex;
+    align-items: center;
+}
+.navbar {
+    background-color: black;
+    opacity: .5;
+    height: 50px;
+}
+.navbar a {
+    font-size: 25;
+    text-decoration: none;
+    margin-left: 25px;
+    color: rgb(229, 255, 0);
+}
+body {
+    background: url(16.jpg);
+    background-position: center;
+}
+.navbar a:hover{
+    color: white;
+    transition: .5s;
+}
+.navbar a:hover{
+    background-color: black;
+    opacity: 0.5;
+    transition: .25s;
+}
+.home {
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+    line-height: 1px;
+    color: whitesmoke;
+}
+.home h1:hover{
+    color: green;
+    opacity: 0.5;
+    transition: .5s
+}
+.home h2:hover{
+    color: green;
+    opacity: 0.5;
+    transition: .5s
+}
+.home h1{
+    font-size: 40px;
+}
+.home h2{
+    font-size: 70px;
+}
+.pic img{
+    height: 50%;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 250px;
+}
+.home{
+    width: 900px;
+    height: 500px;
+    margin-left: 100px;
+    border: 2px solid grey;
+    box-shadow: 4px 4px 4px white;
+    overflow: hidden;
+    position: absolute;
+}
